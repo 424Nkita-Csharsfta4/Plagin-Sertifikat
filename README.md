@@ -1,2 +1,2 @@
-# Plagin-Sertifikat
+# Plagin-Sertifikat 1.0
 Плагин для подписание сертификатов электроной подписи.
