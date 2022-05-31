@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "ЭПЦ",
+    "version": "1.0",
+    "icons": {
+        "16": "images/logo/16.png",
+        "48": "images/logo/48.png",
+        "128": "images/logo/128.png"
+    },
+    "description": "Плагин предназначен для получения информации о сертификатах",
+    "permissions": [
+      "declarativeContent",
+      "tabs",
+      "notifications",
+      "http://*/*",
+      "https://*/*"
+    ],
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/logo/16.png",
+        "48": "images/logo/48.png",
+        "128": "images/logo/128.png"
+      }
+    },
+    "web_accessible_resources": [
+      "app.js"
+    ]
+}
